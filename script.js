@@ -96,33 +96,19 @@ function waitAndResponce(inputText) {
             }, 2000);
             break;
         case "bantuan":
-            sendTextMessage("<span class='sk'>Send Keyword to get what you want to know about me...<br>e.g<br><span class='bold'>'skills'</span> - to know my skills<br><span class='bold'>'resume'</span> - to get my resume<br><span class='bold'>'education'</span> - to get my education details<br><span class='bold'>'address'</span> - to get my address<br><span class='bold'>'contact'</span> - to get ways to connect with me<br><span class='bold'>'projects'</span> - to get details of my projects<br><span class='bold'>'clear'</span> - to clear conversation<br><span class='bold'>'about'</span> - to know about this site</span>");
+            sendTextMessage("<span class='sk'>pilih kata kunci berikut ini kak<br>e.g<br><span class='bold'>'alamat'</span> - untuk mengetahui alamat server kami<br><span class='bold'>'clear'</span> - untuk membersihkan isi chat ini<br><span class='bold'>'tentang'</span> - untuk mengetahui tentang web Hobi<br><span class='bold'>'hubungi'</span> - untuk menghubungi kami</span>");
             break;
-        case "resume":
-            sendTextMessage(resumeString);
-            break;
-        case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing B.Tech degree in Computer Science Engineering.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Java<br>C++<br>C<br>PHP<br>Kotlin<br>Dart<br>Python<br>CSS<br>HTML</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
-            break;
-
-        case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Computer Science Engineering from TKIET Kolhapur<br>Passing Year : 2023<br><br>I have completed my Diploma from Government Polytechnic Karad<br>Passing Year:2020<br>Result:86.06%<br><br>I have completed my Secondary school from local school known as SWV<br>Passing Year:2016");
-            break;
-
-        case "address":
+        case "alamat":
             sendTextMessage(addressString);
             break;
         case "clear":
             clearChat();
             break;
-        case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' href='https:\/\/instagram.com/vinayak_patil_09/'><span class='bold'>Bot</a> with ❤️</span>");
+        case "tentang":
+            sendTextMessage("🛠️💻 Silahkan kakak buka web ini ya<br><br>👨🏻‍💻 https://hobi.my.id/static/about <a class='alink' target='_blank' href='https://hobi.my.id/static/about'><span class='bold'>Bot</a> ❤️</span>");
             break;
-        case "contact":
+        case "hubungi":
             sendTextMessage(contactString);
-            break;
-        case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "new":
             sendTextMessage(addressString);

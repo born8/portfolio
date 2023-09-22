@@ -1,2 +1,2 @@
-# Vinayak-09.github.io
+# Special thanks to Vinayak-09.github.io
 My personal Website
