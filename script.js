@@ -105,7 +105,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "tentang":
-            sendTextMessage("🛠️💻 Silahkan kakak buka web ini ya<br><br>👨🏻‍💻 Klik Ya <a class='alink' target='_blank' href='https://hobi.my.id/static/about'><span class='bold'>Hobi.My.ID</a> ❤️</span>");
+            sendTextMessage("🛠️💻 Kami adalah Social Media Marketing<br><br>👨🏻‍💻 ^^ <a class='alink' target='_blank' href='https://hobi.my.id/'><span class='bold'>Hobi.My.ID</a> ❤️</span>");
             break;
         case "hubungi":
             sendTextMessage(contactString);
